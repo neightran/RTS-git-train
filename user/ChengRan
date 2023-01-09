@@ -1,0 +1,30 @@
+#include <stdio.h>
+
+#define FIELD_LENGTH  12000
+#define FIELD_RIVER   1950
+#define CENTER_LENGTH 3000
+#define CAR_LENGTH    20
+
+int main() {
+    float Front = 0;
+    float Left = 0;
+    float Rear = 0;
+    float Omega = 0;
+    ///输入部分，分别在前后左侧安装激光传感器版本
+    printf("please input front value:\n");
+    scanf("%f\n",&Front);
+    printf("please input left value:\n");
+    scanf("%f\n",&Left);
+    printf("please input rear value:\n");
+    scanf("%f\n",&Rear);
+    ///操作部分
+    //1.角度判断
+    float TotalLength = Front + Rear + CAR_LENGTH;
+    if (TotalLength == FIELD_RIVER)
+        Omega = 0;
+    else if(TotalLength == FIELD_LENGTH)
+    {
+        if(Left < FIELD_RIVER)
+    }
+    return 0;
+}
