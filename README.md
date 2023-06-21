@@ -39,8 +39,7 @@
 
 - [<u>git入门教程</u>](https://www.cnblogs.com/imyalost/p/8762522.html)
 - [菜鸟教程yyds](https://www.runoob.com/git/git-tutorial.html)
-- 一个可以打开md文件的软件：[Typora](https://bhpan.buaa.edu.cn:443/link/5D15F20C387C3E8D482B1A2AF01EC387
-  有效期限：2023-09-30 23:59[)
+- 一个可以打开md文件的软件：[Typora](https://bhpan.buaa.edu.cn:443/link/5D15F20C387C3E8D482B1A2AF01EC387)
 
 
 
