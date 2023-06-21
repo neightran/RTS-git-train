@@ -41,5 +41,36 @@
 - [菜鸟教程yyds](https://www.runoob.com/git/git-tutorial.html)
 - 一个可以打开md文件的软件：[Typora](https://bhpan.buaa.edu.cn:443/link/5D15F20C387C3E8D482B1A2AF01EC387)
 
+### 2.PID控制程序编写及封装
+
+#### 任务简介
+
+> PID算法是控制领域应用最广泛的算法，其计算流程与其应用场景并无关系，为了避免重复编写同样的代码，我们往往会将PID算法进行封装，初始化过后直接调用即可。
+
+#### 任务说明
+
+- 1.请完善`PID.c`中的两个空白函数，函数的功能已经在注释中写出。
+
+  `void PID_StructInit(PID_t *pid, float p, float i, float d, float integral_limit, float max_output)`
+
+  `static void Calculate(PID_t *pid, float current_value, float target_value)`
+
+- 2.请根据自己编写好的函数进行对`PID.c`的封装。
+      需要达到的**要求**是用户在定义 `PID_t` 结构体后(例如 `PID_t TestPID`)，先运行`PID_StructInit`函数，再使用`TestPID.f_Calculate(&TestPID, Current_value, Target_value)`即可完成计算，计算的结果保存在结构体中。
+
+- 3.通过查阅关于`PID`的资料，说一说P、I、D三个参数分别有什么作用，如果让你调节PID参数，你会如何开始调节。写成一个TXT文档，字数不超过100字，以自己的名字命名即可。
+
+- 4.本任务的代码均放在 `第一周测试题/task2`文件夹下。
+
+#### 任务要求
+
+- 需要提交的文件：`PID.c`和`PID.h`和`PID参数说明文档`。原始文件放在`第一周任务/task2`目录下。
+- 程序有一定可读性，包含适当的注释；**即使没能完成任务，也请提交上来**，并且在同目录下创建一个README文本文件中写明原因以及完成的进度情况。
+- 本任务提交方式为<font color='red'>**邮箱提交**</font>，邮箱为`bhjqrdkzz2022@163.com`(与其他需要邮箱提交的任务放在**同一个zip文件**中，zip文件命名格式为 **{你的名字}第一周测试题.zip)** 
+
+#### 参考资料
+
+- [初识PID-搞懂PID概念](https://zhuanlan.zhihu.com/p/74131690)
+
 
 
