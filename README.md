@@ -49,18 +49,18 @@
 
 #### 任务说明
 
-- 1.请完善`PID.c`中的两个空白函数，函数的功能已经在注释中写出。
+1.请完善`PID.c`中的两个空白函数，函数的功能已经在注释中写出。
 
-  `void PID_StructInit(PID_t *pid, float p, float i, float d, float integral_limit, float max_output)`
+`void PID_StructInit(PID_t *pid, float p, float i, float d, float integral_limit, float max_output)`
 
-  `static void Calculate(PID_t *pid, float current_value, float target_value)`
+`static void Calculate(PID_t *pid, float current_value, float target_value)`
 
-- 2.请根据自己编写好的函数进行对`PID.c`的封装。
-      需要达到的**要求**是用户在定义 `PID_t` 结构体后(例如 `PID_t TestPID`)，先运行`PID_StructInit`函数，再使用`TestPID.f_Calculate(&TestPID, Current_value, Target_value)`即可完成计算，计算的结果保存在结构体中。
+2.请根据自己编写好的函数进行对`PID.c`的封装。
+    需要达到的**要求**是用户在定义 `PID_t` 结构体后(例如 `PID_t TestPID`)，先运行`PID_StructInit`函数，再使用`TestPID.f_Calculate(&TestPID, Current_value, Target_value)`即可完成计算，计算的结果保存在结构体中。
 
-- 3.通过查阅关于`PID`的资料，说一说P、I、D三个参数分别有什么作用，如果让你调节PID参数，你会如何开始调节。写成一个`.md`文档，字数不超过100字，以自己的名字命名即可。
+3.通过查阅关于`PID`的资料，说一说P、I、D三个参数分别有什么作用，如果让你调节PID参数，你会如何开始调节。写成一个`.md`文档，字数不超过100字，以自己的名字命名即可。
 
-- 4.本任务的代码均放在 `第一周测试题/task2`文件夹下。
+4.本任务的代码均放在 `第一周测试题/task2`文件夹下。
 
 #### 任务要求
 
@@ -135,15 +135,23 @@ Simple帧是三种数据帧最简单的一种帧，其作用是修改远端指�
 
 ### 4.UDP通信
 
+#### 任务说明
+
+1. 利用Qt实现可以发送和接收UDP数据包的应用程序
+
+2. **要求**
+
+- 需要实现基本功能，如设置远端ip，远端端口，本地端口，开始连接，断开连接等。
+- 需要有发送框和接收框，点击发送将发送框中的内容发出，接收的内容显示在接收框中。
+- （可选）实现简单帧通信
+
 #### 任务要求
 
-- 利用Qt实现可以发送和接收UDP数据包的应用程序
-- **要求**
-  - 需要实现基本功能，如设置远端ip，远端端口，本地端口，开始连接，断开连接等。
-  - 需要有发送框和接收框，点击发送将发送框中的内容发出，接收的内容显示在接收框中。
-  - （可选）实现简单帧通信
+- 需提交完整的**QT工程文件**
+- 本任务提交方式为<font color='black'>**邮箱提交**</font>，邮箱为`bhjqrdkzz2022@163.com`(与其他需要邮箱提交的任务放在**同一个zip文件**中，zip文件命名格式为 **{你的名字}第一周测试题.zip** )
 
 #### 参考资料
 
 - [基于QT的UDP通信_qtudp通信_猪猪乾坤屁123的博客-CSDN博客](https://blog.csdn.net/weixin_43479242/article/details/126995697)
+- [QT下载参考链接](http://c.biancheng.net/view/3851.html)
 
