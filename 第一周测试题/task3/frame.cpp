@@ -1,7 +1,7 @@
 /**
  ******************************************************************************
  * @file
- * @author
+ * @author  xtc
  * @date    2023.06.21
  * @brief
  ******************************************************************************
@@ -15,7 +15,7 @@
 uint8_t send_frame[10];
 
 /** @brief  发送简单帧
-  * @param  引入stdarg.h，解决可变参数问题，以...作为占位符
+  * @param  引入stdarg.h，解决可变参数问题，...作为占位符
             id : 变量编号
             target_value : 需要修改为的值
   * @example SendSimpleFrame(2, 123);
@@ -35,7 +35,7 @@ void SendSimpleFrame(uint8_t id, ...)
 /** @brief  接收处理简单帧
   * @param
             recv_frame : 接收帧存放的数组指针
-            len : 帧长度
+            len : 帧长
 */
 void SimpleFrameHandler(uint8_t *recv_frame, uint16_t len)
 {
