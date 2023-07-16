@@ -10,7 +10,7 @@
 
 #### 任务要求
 
-- 安装git，并且注册好`gitee`账户与`git`绑定，并且点击[**邀请链接**](https://gitee.com/buaarobot_admin/ControlGroupOnlineTest2023/invite_link?invite=a52b4b8233cdc27b4908272c9dc1ff6e99e49af97d700d63b7993663152babc580fd2afce6134a2c03eac9232b9ccfc5)加入本远程仓库
+- 安装git，并且注册好`gitee`账户与`git`绑定，并且点击[**邀请链接**](https://gitee.com/buaarobot_admin/ControlGroupOnlineTest2023/invite_link?invite=553d41c7e8792713ac91e7f37729ef49c4be8d9c24fc9512e511b1509403e86ec49ac7117559b8db427a56d8f320fd28)加入本远程仓库
 - 注意邀请链接的有效期为3天
 - 在想要克隆本仓库的地方，右键菜单点击“**`Git Bash Here`**”，输入以下代码，即可实现将远程仓库克隆到本地的操作，注意**之后的任务会放置在任务文件夹中**
 
